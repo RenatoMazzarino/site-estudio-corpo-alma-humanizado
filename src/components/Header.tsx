@@ -95,10 +95,7 @@ export default function Header() {
               </div>
               <div className="hidden lg:block">
                 <div className="font-heading text-lg font-semibold text-foreground leading-tight">
-                  Estúdio Corpo & Alma
-                </div>
-                <div className="font-paragraph text-xs text-text-secondary italic">
-                  Humanizado
+                  Estúdio Corpo & Alma Humanizado
                 </div>
               </div>
             </Link>

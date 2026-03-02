@@ -158,7 +158,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="h-px w-12 bg-primary-dark/40" />
               <span className="font-heading italic text-primary-dark text-lg tracking-wide">
-                Estúdio Corpo & Alma
+                Estúdio Corpo & Alma Humanizado
               </span>
               <div className="h-px w-12 bg-primary-dark/40" />
             </div>
@@ -169,18 +169,26 @@ export default function HomePage() {
             </h1>
 
             <p className="font-paragraph text-xl md:text-2xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
-              Terapia manual premium com acolhimento real. Desinflame o corpo, alivie tensões e reencontre sua presença.
+              Terapia manual premium com acolhimento real.
             </p>
+
+            <div className="flex items-center justify-center gap-4 text-sm text-text-secondary font-paragraph">
+              <span>Hora marcada</span>
+              <span className="w-1 h-1 rounded-full bg-text-secondary" />
+              <span>Ambiente reservado</span>
+              <span className="w-1 h-1 rounded-full bg-text-secondary" />
+              <span>Plano sob medida</span>
+            </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
               <Link to="/agendar">
                 <Button className="bg-primary hover:bg-primary-dark text-white rounded-full px-10 h-14 text-lg transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-1">
-                  Agendar Sessão
+                  Agendar agora
                 </Button>
               </Link>
               <Link to="/servicos">
                 <Button variant="outline" className="border-primary-dark text-primary-dark hover:bg-primary-light/50 rounded-full px-10 h-14 text-lg transition-all duration-300">
-                  Explorar Serviços
+                  Explorar serviços
                 </Button>
               </Link>
             </div>
@@ -295,15 +303,15 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="max-w-2xl">
               <span className="font-paragraph text-sm uppercase tracking-widest text-primary mb-2 block">
-                Menu de Cuidados
+                Serviços
               </span>
               <h2 className="font-heading text-4xl lg:text-5xl font-bold text-foreground">
-                Nossos Serviços
+                Cuidados Especializados
               </h2>
             </div>
             <Link to="/servicos">
               <Button variant="outline" className="border-primary-dark text-primary-dark hover:bg-primary-light rounded-full px-8">
-                Ver Menu Completo
+                Ver todos os serviços
               </Button>
             </Link>
           </div>
@@ -604,16 +612,16 @@ export default function HomePage() {
             Entre em contato pelo WhatsApp para tirar dúvidas ou agende diretamente seu horário online.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/[WHATSAPP]" target="_blank" rel="noopener noreferrer">
               <Button className="bg-white text-primary-dark hover:bg-surface rounded-full px-10 h-14 text-lg font-medium">
                 <Phone className="mr-2 w-5 h-5" />
                 Conversar no WhatsApp
               </Button>
             </a>
-            <Link to="/contato">
+            <Link to="/agendar">
               <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-10 h-14 text-lg font-medium bg-transparent">
                 <MapPin className="mr-2 w-5 h-5" />
-                Ver Localização
+                Agendar Sessão
               </Button>
             </Link>
           </div>

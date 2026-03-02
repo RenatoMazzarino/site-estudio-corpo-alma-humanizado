@@ -56,10 +56,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-heading text-base font-semibold text-foreground leading-tight">
-                  Estúdio Corpo & Alma
-                </div>
-                <div className="font-paragraph text-xs text-text-secondary italic">
-                  Humanizado
+                  Estúdio Corpo & Alma Humanizado
                 </div>
               </div>
             </div>
@@ -76,38 +73,35 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-primary flex-shrink-0 mt-0.5" />
                 <div className="font-paragraph text-sm text-text-secondary">
-                  <p>Rua das Águas Claras, 123</p>
-                  <p>Circuito das Águas Paulista</p>
-                  <p>CEP 12345-678</p>
+                  <p>[ENDEREÇO]</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Clock size={20} className="text-primary flex-shrink-0 mt-0.5" />
                 <div className="font-paragraph text-sm text-text-secondary">
-                  <p>Segunda a Sexta: 9h às 19h</p>
-                  <p>Sábado: 9h às 14h</p>
+                  <p>[HORÁRIOS]</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Phone size={20} className="text-primary flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/[WHATSAPP]"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-paragraph text-sm text-text-secondary hover:text-primary transition-colors"
                 >
-                  (11) 99999-9999
+                  [WHATSAPP]
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <Instagram size={20} className="text-primary flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://instagram.com/estudiohumanizado"
+                  href="https://instagram.com/[INSTAGRAM]"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-paragraph text-sm text-text-secondary hover:text-primary transition-colors"
                 >
-                  @estudiohumanizado
+                  [@INSTAGRAM]
                 </a>
               </div>
             </div>
