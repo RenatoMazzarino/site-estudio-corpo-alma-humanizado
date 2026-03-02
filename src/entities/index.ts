@@ -73,6 +73,8 @@ export interface Services {
   duration?: number;
   /** @wixFieldType boolean */
   isCustomizable?: boolean;
+  /** @wixFieldType boolean */
+  aceitaDomiciliar?: boolean;
 }
 
 

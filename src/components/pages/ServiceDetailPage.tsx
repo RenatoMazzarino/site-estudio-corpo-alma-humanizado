@@ -118,6 +118,11 @@ export default function ServiceDetailPage() {
                         </span>
                       </div>
                     )}
+                    {service.aceitaDomiciliar && (
+                      <div className="flex items-center gap-2 text-primary bg-primary-light px-4 py-2 rounded-full border border-primary font-semibold text-sm">
+                        <span>✓ Atendimento Domiciliar Disponível</span>
+                      </div>
+                    )}
                   </motion.div>
                 </div>
               </div>

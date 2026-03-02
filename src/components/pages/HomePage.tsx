@@ -172,12 +172,12 @@ export default function HomePage() {
               Terapia manual premium com acolhimento real.
             </p>
 
-            <div className="flex items-center justify-center gap-4 text-sm text-text-secondary font-paragraph">
+            <div className="flex items-center justify-center gap-4 text-sm text-text-secondary font-paragraph flex-wrap">
               <span>Hora marcada</span>
               <span className="w-1 h-1 rounded-full bg-text-secondary" />
               <span>Ambiente reservado</span>
               <span className="w-1 h-1 rounded-full bg-text-secondary" />
-              <span>Plano sob medida</span>
+              <span>Atendimento domiciliar disponível</span>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">

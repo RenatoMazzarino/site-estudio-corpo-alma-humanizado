@@ -173,7 +173,7 @@ export default function ServicosPage() {
                       to={`/servicos/${service.slug}`}
                       className="group block bg-surface rounded-[14px] overflow-hidden border border-primary-light hover:border-primary transition-all duration-300 h-full"
                     >
-                      <div className="aspect-[4/3] overflow-hidden">
+                      <div className="aspect-[4/3] overflow-hidden relative">
                         <Image
                           src={
                             service.serviceImage ||
@@ -183,6 +183,11 @@ export default function ServicosPage() {
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           width={600}
                         />
+                        {service.aceitaDomiciliar && (
+                          <div className="absolute top-3 right-3 bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full border border-primary">
+                            Domiciliar
+                          </div>
+                        )}
                       </div>
                       <div className="p-6 space-y-4">
                         <div className="flex items-start justify-between gap-4">
