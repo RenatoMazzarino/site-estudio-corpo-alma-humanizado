@@ -1,5 +1,5 @@
+import { Clock, Instagram, MapPin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { MapPin, Clock, Phone, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -101,7 +101,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="font-paragraph text-sm text-text-secondary hover:text-primary transition-colors"
                 >
-                  [@INSTAGRAM]
+                  [@CORPOEALMAHUMANIZADO]
                 </a>
               </div>
             </div>
