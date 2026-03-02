@@ -73,7 +73,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-primary flex-shrink-0 mt-0.5" />
                 <div className="font-paragraph text-sm text-text-secondary">
-                  <p>[ENDEREÇO]</p>
+                  <p>[Rua Silva Pinto, 186 - Centro Historico, Amparo/SP,CEP 13900-319]</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
